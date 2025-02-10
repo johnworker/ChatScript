@@ -9,8 +9,17 @@ def generate():
     result_text.set("\n".join(dialog))
 
 def copy_to_clipboard():
-    pyperclip.copy(result_text.get())
-
+    """將內容複製到剪貼簿"""
+    text = result_text.get()
+    if pyperclip:
+        try:
+            pyperclip.copy(text)
+            print(f"✅ 成功複製到剪貼簿: {text}")
+        except Exception as e:
+            print(f"❌ 無法複製，錯誤: {e}")
+    else:
+        print("⚠️ 警告：pyperclip 無法使用")
+        
 # 創建主視窗
 root = tk.Tk()
 root.title("ChatScript - AI 對話生成器")

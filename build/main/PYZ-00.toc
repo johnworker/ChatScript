@@ -304,7 +304,7 @@
    'C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\py_compile.py',
    'PYMODULE'),
   ('pyperclip',
-   'C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pyperclip\\__init__.py',
+   'D:\\程式開發工具\\ChatScript\\.venv\\Lib\\site-packages\\pyperclip\\__init__.py',
    'PYMODULE'),
   ('quopri',
    'C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\quopri.py',
