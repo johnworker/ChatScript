@@ -2,6 +2,7 @@ import tkinter as tk
 from dialog_generator import generate_dialog
 import pyperclip
 
+
 def generate():
     category = category_var.get()
     dialog = generate_dialog(category)
